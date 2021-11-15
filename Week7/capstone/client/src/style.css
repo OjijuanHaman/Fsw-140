@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(253, 190, 130);
+    font-family: 'Yuji Boku', serif;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
+  
+  .seperation {
+    margin: 50px;
+  }
+  button {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #020405;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+    margin-right: 8px;
+  }
+  button:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+  }
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  .inputadjustment {
+    height: 35px;
+    margin: 5px 3px 0 5px;
+  }
+  .linkadjustment {
+    height: 35px;
+    margin: 5px 3px 0 5px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .flexoutput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container {
+    padding: 0 250px 0 250px;
+  }
+  .container > h1 {
+    text-align: center;
+    border-top: 5px solid rgb(47, 56, 109);
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgb(241, 138, 21);
+    background-color:rgba(8, 8, 8, 0.795);
+  }
+  
+ .imgh1 {
+    text-align: center;
+    border-top: 5px solid rgb(47, 74, 109);
+  }
+  
